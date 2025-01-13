@@ -1,13 +1,13 @@
 .btn {
-  @apply inline-block rounded border border-transparent px-5 py-2 font-semibold capitalize transition;
+  @apply inline-block rounded-full border border-transparent px-2 py-0 font-thin capitalize transition;
 }
 
 .btn-sm {
-  @apply rounded-sm px-4 py-1.5 text-sm;
+  @apply rounded-full px-2 py-0 text-xl ;
 }
 
 .btn-primary {
-  @apply border-primary bg-primary   text-white ;
+  @apply border-primary bg-primary text-white text-3xl font-light ;
 }
 
 .btn-outline-primary {
